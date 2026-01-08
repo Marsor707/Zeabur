@@ -13,7 +13,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          ref: cli-proxy-api-plus
+          ref: cli-proxy-api
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Get latest image tag
